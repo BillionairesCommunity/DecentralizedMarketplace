@@ -3,16 +3,10 @@ module.exports = {
     debug: false,
     host: 'localhost',
     port: 27017,
-    database: 'Test',
+    database: 'my_database',
     connectOptions: {
-        db: {},
-        server: {
-            auto_reconnect: true
-        },
-        replset: {},
-        user: {},
-        pass: {},
-        auth: {},
-        mongos: {}
+        user: 'my_user',
+        pass: 'password123',
+        auth: {}
     }
 };
